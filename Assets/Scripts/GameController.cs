@@ -8,10 +8,6 @@ public class GameController : MonoBehaviour {
 	public bool playerLapStarted, playerWins;
 	public float playerTime, lastTimePlayer, bestTimePlayer;
 
-	[Space (20)]
-	public bool EnemyVars;
-	//	[Space (20)]
-
 	public int numCheckPointEnemy, numLapEnemy, lapsLimitEnemy;
 	public bool enemyLapStarted, enemyWins;
 	public float enemyTime, lastTimeEnemy, bestTimeEnemy;
